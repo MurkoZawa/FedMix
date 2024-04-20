@@ -112,7 +112,7 @@ class retouch(Dataset):
 #####################################
 class Cancer(Dataset):
     def __init__(self, im_path, mask_path, train=False, \
-                IMAGE_SIZE=(256,256), CROP_SIZE=(224,224), 
+                IMAGE_SIZE=(600,600), CROP_SIZE=(224,224), 
                 noisy=True):
         self.data = im_path
         self.label = mask_path
